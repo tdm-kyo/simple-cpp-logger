@@ -10,6 +10,6 @@ int main()
 	ofstream fout("log.txt",ios::app);
 	fout<<ctime(&timestamp);
 	fout<<"\n";
-	cout << "Entrata loggata";;
+	cout << "Logged";;
 	return 0;
 }
